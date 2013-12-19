@@ -38,7 +38,7 @@
 {
 //	[(ABTableViewCell *)[self superview] drawContentView:r];
 //fix bug in iOS7, UITableViewCell Internal View Hierarchy Change in iOS 7
-//[(ABTableViewCell *)[[self superview] superview]drawContentView:r];
+	[(ABTableViewCell *)[[self superview] superview]drawContentView:r];
 }
 
 @end
